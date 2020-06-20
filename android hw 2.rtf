@@ -1,0 +1,62 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 public class HelloWorld\{\
+\
+     public static void main(String []args)\{\
+        System.out.println("Hello World");\
+        \
+        int [] studentsPercentage = \{ 45,63,92,69,84,80,90,30,90,70 \};\
+        \
+    char [] letterGrades = new char  [10];\
+        \
+         for (int i = 0 ;i < 10;i++)\{\
+           letterGrades [i] = grade (studentsPercentage [i]);\
+            System.out.println(letterGrades[i]);\
+            \
+\}\}\
+public static char grade (int y)\{\
+    \
+    \
+            if (y>=90)\{\
+                \
+                \
+            return 'A';\
+               \
+               \
+            \}else if (y >=80)\{\
+                \
+                \
+           return 'b';\
+           \
+            \}else if (y>=70)\{\
+                \
+             return 'c';\
+             \
+             \
+            \}else if (y>=60)\{\
+                \
+                \
+              return 'd' ; \
+              \
+              \
+            \}else if (y < 50)\{\
+                \
+                \
+          return 'f' ;\
+          \
+         \} else \{\
+             \
+             return 'e';\
+         \}\
+\}\
+\
+\
+        \
+        \
+     \}\
+}
